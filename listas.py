@@ -28,3 +28,13 @@ def recorrer_diccionario(d):
     for clave, valor in d.items():
         print(f"{clave}: {valor}")
 recorrer_diccionario(dicionario)
+
+tupla = (1, 2, 3, 4, 5)
+def recorrer_tupla(t):
+    """
+    Recorrer una tupla y mostrar los elementos.
+    """
+    for i in t:
+        print(i, end="\t")
+    print()
+recorrer_tupla(tupla)
